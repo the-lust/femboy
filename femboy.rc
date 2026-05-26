@@ -1,0 +1,2 @@
+#include "resource.h"
+IDR_INTERFACE_TABLE RCDATA "femboy_interfaces.dat"

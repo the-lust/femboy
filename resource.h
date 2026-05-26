@@ -1,0 +1,4 @@
+#pragma once
+
+#define IDR_INTERFACE_LOOKUP 100
+#define IDR_INTERFACE_TABLE 100

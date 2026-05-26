@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Layer Sources">
+      <UniqueIdentifier>{6C27A8A1-2A28-4F3E-AA44-7F2F2C5F1E9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hooking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="variant_detection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="interface_lookup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\layer_gbedetection.cpp">
+      <Filter>Layer Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\layer_pluginloader.cpp">
+      <Filter>Layer Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\layer_coldclient.cpp">
+      <Filter>Layer Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\layer_cegdetection.cpp">
+      <Filter>Layer Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\layer_cegstrategy.cpp">
+      <Filter>Layer Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\layer_variantdetector.cpp">
+      <Filter>Layer Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\layer_ministeamemu.cpp">
+      <Filter>Layer Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\layer_antidebugpatcher.cpp">
+      <Filter>Layer Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\layer_stubmonitor.cpp">
+      <Filter>Layer Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="layer_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="steam_xor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="variant_detection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface_lookup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\layer_gbedetection.h">
+      <Filter>Layer Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\layer_pluginloader.h">
+      <Filter>Layer Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\layer_coldclient.h">
+      <Filter>Layer Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\layer_cegdetection.h">
+      <Filter>Layer Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\layer_cegstrategy.h">
+      <Filter>Layer Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\layer_variantdetector.h">
+      <Filter>Layer Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\layer_ministeamemu.h">
+      <Filter>Layer Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\layer_antidebugpatcher.h">
+      <Filter>Layer Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\layer_stubmonitor.h">
+      <Filter>Layer Sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="femboy.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
